@@ -4,8 +4,6 @@ export default class About extends Component {
 
   render(){
 
-    const { message, more } = this.props.params
-
-    return <h1> About Us, { message }, { more } </h1>
+    return <h1> About Us ! - {this.props.params.who}</h1>
   }
 }

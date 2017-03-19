@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-const Home = () => <div> Home Component </div>
+const Home = () => <div> Home Component </div>;
 
 export default Home
