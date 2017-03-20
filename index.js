@@ -11,9 +11,9 @@ const router = (
     <Router history={browserHistory}>
         <Route path="/" components={App}>
             <IndexRoute components={Home}/>
-            <Route path="/about/:who" components={About}/>
+            <Route path="/about/:who/:wh" components={About}/>
             <Route path="/contact/:who" components={Contact}/>
-            <Redirect from="/about" to="/about/redirect"/>
+            <Redirect from="/about" to="/about/redirect/aaa" />
         </Route>
     </Router>
 );
